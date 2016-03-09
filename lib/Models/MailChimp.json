@@ -1,0 +1,10 @@
+{
+  "name": "MailChimp",
+  "base": "Model",
+  "properties": {
+    "id": {"type": "string", "required": true},
+    "email": {"type": "string", "required": true},
+    "double_optin": {"type": "boolean"},
+    "merge_vars": {"type": "object"}
+  }
+}

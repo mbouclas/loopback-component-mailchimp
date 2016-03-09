@@ -1,0 +1,25 @@
+{
+  "name": "loopback-component-mailchimp",
+  "version": "0.0.1",
+  "description": "Loopback component for Mailchimp",
+  "main": "index.js",
+  "keywords": [
+    "loopback",
+    "mailchimp",
+    "component"
+  ],
+  "author": "Michael Bouclas <mbouclas@gmail.com> (http://net-tomorrow.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "lodash": "^4.6.1",
+    "mailchimp-api-v3": "^1.0.0",
+    "maxmind": "^0.6.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/mbouclas/loopback-component-mailchimp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbouclas/loopback-component-mailchimp.git"
+  }
+}
