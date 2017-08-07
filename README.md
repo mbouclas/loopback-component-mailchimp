@@ -1,6 +1,6 @@
 ## loopback-connector-mailchimp
 
-Loopback connector module which allow to send emails via Mailgun.
+Loopback connector module which allow to send emails via Mailchimp.
 
 ## 1. Installation
 
