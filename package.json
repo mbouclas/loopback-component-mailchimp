@@ -14,7 +14,8 @@
     "bluebird": "^3.3.4",
     "lodash": "^4.6.1",
     "mailchimp-api-v3": "^1.0.0",
-    "maxmind": "^0.6.0"
+    "maxmind": "^0.6.0",
+    "md5": "^2.2.1"
   },
   "devDependencies": {},
   "homepage": "https://github.com/mbouclas/loopback-component-mailchimp",
