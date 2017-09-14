@@ -42,3 +42,13 @@ Simple subscribe member. Returns a Promise
         .catch(function (err) {
         console.log('Error : ',err);
       });
+
+Simple unsubscribe member. Returns a Promise
+
+      app.MailChimp.unsubscribe(email)
+        .then(function (res) {
+          console.log('Result :',res);
+        })
+        .catch(function (err) {
+        console.log('Error : ',err);
+      });
