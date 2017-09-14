@@ -1,6 +1,6 @@
 {
   "name": "loopback-component-mailchimp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Loopback component for Mailchimp",
   "main": "index.js",
   "keywords": [
