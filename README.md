@@ -45,7 +45,23 @@ Simple subscribe member. Returns a Promise
 
 Simple unsubscribe member. Returns a Promise
 
-      app.MailChimp.unsubscribe(email)
+      app.MailChimp.unsubscribe({
+        email : 'user@email.com',
+        id : defaultListId
+        })
+        .then(function (res) {
+          console.log('Result :',res);
+        })
+        .catch(function (err) {
+        console.log('Error : ',err);
+      });
+
+Simple unsubscribe member. Returns a Promise
+
+      app.MailChimp.delete({
+        email : 'user@email.com',
+        id : defaultListId
+        })
         .then(function (res) {
           console.log('Result :',res);
         })
