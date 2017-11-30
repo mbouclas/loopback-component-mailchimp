@@ -27,28 +27,47 @@ component-config.json
 
 Simple subscribe member. Returns a Promise
 
-      app.MailChimp.subscribe({
-        email : 'user@email.com',
-        id : defaultListId,
-        firstName : 'A name',
-        lastName : 'A surname',
-        merge_vars : {
-          optin_ip : '192.168.0.1'
+    var user = {
+        email: 'user@email.com',
+        firstName: 'A name',
+        lastName: 'A surname',
+        merge_vars: {
+            optin_ip: '192.168.0.1'
         }
-      })
+    }
+
+    app.MailChimp.subscribe(user, defaultListId)
         .then(function (res) {
-          console.log('Result :',res);
+            console.log('Result :', res);
         })
         .catch(function (err) {
-        console.log('Error : ',err);
-      });
+            console.log('Error : ', err);
+        });
 
 Simple unsubscribe member. Returns a Promise
 
-      app.MailChimp.unsubscribe(email)
+    var user = {
+        email: 'user@email.com'
+    }
+
+    app.MailChimp.unsubscribe(user, defaultListId)
         .then(function (res) {
-          console.log('Result :',res);
+            console.log('Result :', res);
         })
         .catch(function (err) {
-        console.log('Error : ',err);
-      });
+            console.log('Error : ', err);
+        });
+
+Simple unsubscribe member. Returns a Promise
+
+    var user = {
+        email: 'user@email.com'
+    }
+
+    app.MailChimp.delete(user, defaultListId)
+        .then(function (res) {
+            console.log('Result :', res);
+        })
+        .catch(function (err) {
+            console.log('Error : ', err);
+        });
